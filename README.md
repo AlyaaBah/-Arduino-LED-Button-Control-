@@ -2,7 +2,7 @@
 Control three LEDs using three push buttons with an Arduino Uno.
 This project demonstrates how to control three LEDs using three push buttons with an Arduino Uno. Each button controls one LED, allowing for simple digital input/output interaction. This is a great beginner project for understanding how microcontrollers handle user input and output signals.
 
-🧰 Components Required  
+ Components Required  
 To build this project, you will need the following components:
 
 - Arduino Uno board  
@@ -13,7 +13,7 @@ To build this project, you will need the following components:
 - Jumper wires  
 - USB cable for programming the Arduino  
 
-🔌 Circuit Connections  
+ Circuit Connections  
 Each push button and LED is connected to the Arduino as follows:
 
 | Component | Arduino Pin | Resistor         | GND |
@@ -25,9 +25,9 @@ Each push button and LED is connected to the Arduino as follows:
 | LED 2     | D3           | 220Ω             | Yes |
 | LED 3     | D4           | 220Ω             | Yes |
 
-⚠️ Important: Ensure that all ground connections are properly linked to the Arduino GND pin to maintain a common ground across the circuit.
+ Important: Ensure that all ground connections are properly linked to the Arduino GND pin to maintain a common ground across the circuit.
 
-🎯 Project Behavior  
+ Project Behavior  
 Once powered and programmed, the three push buttons will control the three LEDs as follows:
 
 - Pressing Button 1 turns on LED 1.  
@@ -42,13 +42,13 @@ This behavior is useful in applications like:
 - Interactive LED displays  
 - DIY electronics projects  
 
-▶️ How to Use  
+ How to Use  
 1. Assemble the circuit as described above.  
 2. Upload the Arduino sketch using the Arduino IDE.  
 3. Power the Arduino using a USB cable or external power.  
 4. Press each button to control its corresponding LED.  
 
-📌 Notes  
+ Notes  
 - Ensure that the resistors are correctly placed to prevent damage to the LEDs and ensure stable button input.  
 - If the LEDs do not light up, check the orientation and wiring.  
 - You can expand this project by adding more buttons, sensors, or integrating it into a larger system.  
